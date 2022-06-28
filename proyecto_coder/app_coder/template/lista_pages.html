@@ -1,0 +1,16 @@
+{% extends "padre.html" %}
+
+{%  load static %}
+
+
+{% block contenido %}
+
+<h1>WELCOME</h1>
+<p>{{datos_p}}</p>
+
+{% for page in datos_p %}
+    <p>{{ page.nombre }}</p>
+    <p>{{ page.camada }}</p>
+{% endfor %}
+
+{% endblock %}

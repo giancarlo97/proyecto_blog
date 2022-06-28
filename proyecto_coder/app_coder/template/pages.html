@@ -1,0 +1,35 @@
+{% extends "padre.html" %}
+
+{%  load static %}
+
+
+{% block contenido %}
+
+<h1>PAGES:</h1>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">NOMBRE</th>
+        <th scope="col">CAMADA</th>           
+      </tr>
+    </thead>
+    <tbody>
+        {% for n in pages %}
+        <tr>
+            <th scope="row">{{n.id}}</th>
+            <td>{{n.nombre}}</td>
+            <td>{{n.camada}}</td>            
+            <td><a href="{% url 'elimina_page'  n.id %}">BORRAR</a></td>
+            <td><a href="{% url 'editar_page'  n.id %}">EDITAR</a></td>
+            <td><a href="{% url 'leer' %}">LEER MAS</a></td>
+        </tr>
+        {% endfor %}        
+    
+    </tbody>
+  </table>
+  <button>
+    <a href="alta_pages">Agregar otra pagina</a>
+  </button>
+
+{% endblock %}

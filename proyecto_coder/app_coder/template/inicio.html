@@ -1,0 +1,12 @@
+{% extends "padre.html" %}
+{% load static %}
+
+{% block contenido %}
+    <a href="{% url 'Logout' %}">Logout</a>
+    <h1>Bienvenido al Blog</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptate quod error esse dignissimos magni quos optio tenetur corrupti temporibus perspiciatis fugiat pariatur fugit dicta perferendis, aperiam modi quis dolore!</p>
+    <div>
+        <img src="{{ url }}" alt="">
+    </div>
+
+{% endblock %}
