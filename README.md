@@ -11,7 +11,9 @@ Para buscar una page, cree un buscador
 Como items extra, en los iconos de la Footer vincule las redes sociales (Meta, Twitter, Instagram)
 
 NOTA: El TP, se realizo sobre ultimo realizado en clase.
+
 En el "Admin" el usuario es: torreblancamd y la contraseña es: codercoder
+
 Un subusuario es: Pepe contraseña: codercoder22
 
 Saludos Maxi, Muchas Gracias :D
