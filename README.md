@@ -6,6 +6,8 @@ Alumno: Giancarlo Oblitas
 
 Profesor: Maximiliano Torreblanca
 
+LINK del video del tp: https://youtu.be/q3ldO9J3IaY
+
 En la Footer vincule "About" y "Messages", con su respectiva pagina.
 Para acceder a las "Pages" y a las otras funciones de la "Nav", es necesario loguearse. 
 El "Leer mas" lo introduje dentro de las pages.
