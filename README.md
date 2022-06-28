@@ -1,7 +1,9 @@
 # proyecto_blog
 
 -Python/Django-
+
 Alumno: Giancarlo Oblitas
+
 Profesor: Maximiliano Torreblanca
 
 En la Footer vincule "About" y "Messages", con su respectiva pagina.
